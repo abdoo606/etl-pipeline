@@ -20,3 +20,7 @@ pytest projects/17-etl-pipeline -q
 - Idempotent by construction - a second run of the same batch loads nothing
 - Retries with exponential backoff around both source and sink
 - Rejected records are counted and sampled, never silently dropped
+
+## Repository
+- GitHub: https://github.com/{owner}/etl-pipeline
+- Python 3.11+ · tests: `pytest` · runtime dependencies: none (standard library only)
